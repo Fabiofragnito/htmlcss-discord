@@ -42,7 +42,7 @@
 }
 .debug-section5{
     width: 70%;
-    background-color: green;
+    
     height: 85%;
     border: 2px dashed black;
 }
@@ -175,11 +175,17 @@ header{
     
     
 }
-.section2, .section4{
+.section2 {
     height: 350px;
     display: flex;
    justify-content: space-around;
    align-items: center;  
+}
+.section4{
+    height: 700px;
+    display: flex;
+   justify-content: space-around;
+   align-items: center; 
 }
 
 .section3{
