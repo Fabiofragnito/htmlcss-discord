@@ -183,11 +183,14 @@ header{
 }
 
 .section3{
-    height: 350px;
+    height: 650px;
     display: flex;
     flex-direction: row-reverse;
    justify-content: center;
-   align-items: center;  
+   align-items: center; 
+   background-color: #f6f6f6;
+   margin-top: 400px;
+   
    
 }
 
@@ -225,5 +228,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 /*end-utilities-area*/
