@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     
 }
 
@@ -20,16 +21,9 @@
    
     
 }
-.debug-section1{
-    width: 60%;
-    img{
-        max-width: 100%;
-    }
-    /* height:85%; */
-    
-    /* border:2px dashed black; */
-    
-}
+
+
+
 .debug-section2-blue{
     width: 40%;
     height:85%;
@@ -78,21 +72,15 @@
 
 header{
     height: 70px;
-    background-color: #3267ec;
+    background-color: #255ee9;
     display: flex;
     justify-content:center;
     align-items: center;
     
+    
 }
 
- .login{
-    
-    border: 1px dashed black;
-    padding: 5px;
-    
-    
-    
-}
+
 
 
 .link{
@@ -105,33 +93,85 @@ header{
 }
 
 .login{
-    width: 5%;
-    height: 30px;
+    width: 70px;
+    height: 40px;
     text-align: center;
     color: black;
     background-color: white;
     border-radius: 20px;  
+    padding: 10px;
+    font-size: 15px;
+    
     
     
 }
 
 .section1{
+   height: 500px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   
     
     display: flex;
     justify-content: center;
     align-items: center;  
-    /* background-image: url(img/jumbo.png);  */
-    /* background-size: cover;
-    max-width: 100%; */
+    background-image: url(./img/jumbo.png);
+}
+
+.paragrafo{
+    width: 45%;
+    height: 350px;
+    color: white;
+    margin: auto;
+    text-align: center;
    
-    img{
-        max-width: 100%;
-        max-height: 100%;
-    }
-    
+}
+.titolo1{
+    font-size: 40px;
+}
+
+.testo1{
+    padding-top: 30px;
+    vertical-align: middle;
     
 }
 
+.container{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    
+}
+.button-browser{
+    margin-top: 30px;
+    width: 40%;
+    margin-left: 30px;
+    background-color: black;
+    height: 50px;
+    border-radius: 50px;
+    padding: 15px;
+   
+    
+    
+    
+}
+.button-mac{
+    margin-top: 30px;
+    
+    
+    color: black;
+    width: 25%;
+    background-color: white;
+    height: 50px;
+    border-radius: 50px;
+    padding: 15px;
+    
+    
+}
 .section2, .section4{
     height: 350px;
     display: flex;
