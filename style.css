@@ -43,8 +43,10 @@
 .debug-section5{
     width: 70%;
     
-    height: 85%;
-    border: 2px dashed black;
+    height:95%;
+    margin-top: 200px;  
+    font-size: 20px;
+    text-align: center;
 }
 
 .debug-footer1-pink{
@@ -175,6 +177,17 @@ header{
     
     
 }
+.button-mac-2{
+    color: white;
+    width: 25%;
+    background-color: #8ea1e1;
+    height: 50px;
+    border-radius: 50px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 50px;
+
+}
 .section2 {
     height: 350px;
     display: flex;
@@ -204,11 +217,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
-    background-color: lightgray;
+    height: 1100px;
+    
+    background-color: #f6f6f6;
 }
 
 .footer1{
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,6 +239,22 @@ header{
     justify-content:center;
     align-items:last baseline;
     border: 1px solid white;   
+}
+
+.star-container{
+    width: 60%;
+    display: flex;
+    background-image: url(img/stars.svg);
+    height: 60px;
+   background-size: contain;
+   
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #f6f6f6;
+    margin-top: 50px;
+   
 }
 
 .container-footer2{
