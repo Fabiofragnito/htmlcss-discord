@@ -80,15 +80,32 @@
 .debug-footer1-green{
     width: 12.5%;
     height:90%;
-    background-color:rgb(17, 185, 45);
-    border: 2px dashed black;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content:flex-start;
+    padding-left: 50px;
+    color: white;
+    justify-content: space-evenly;
+    
+    
+   
 }
 .debug-footer2{
     width: 6%;
     padding: 2px;
-    background-color: pink;
-    border: 2px dashed black;
+    
     text-align: center;
+}
+
+.debug-footer2-registr{
+    background-color: #8ea1e1;
+    color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 12%;
+    text-align: center;
+    padding: 10px;
 }
 
 /*end-debug-area*/
@@ -265,7 +282,7 @@ header{
     display: flex;
     justify-content:center;
     align-items:last baseline;
-    border: 1px solid white;   
+     
 }
 
 .star-container{
@@ -287,7 +304,7 @@ header{
 .container-footer2{
     width: 70%;
     height: 75%;
-    background-color: aqua;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
