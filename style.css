@@ -12,11 +12,11 @@
 
 /*debug area*/
 
-.debug-header{
+#app_header{
     width: 80%;
-    height: 50%;
     display: flex;
     justify-content: center;
+    margin-top: 0;
     
    
     
@@ -24,19 +24,19 @@
 
 
 
-.debug-section2-blue{
+.pic1{
     width: 40%;
-    height:100%;
+    
     img{
         margin-top: 100px;
     }
     
 }
 
-.debug-section2-pink{
+.place2_invite{
     width: 30%;
-    height:85%;
-    margin-top: 200px;  
+    margin-top: 1   0rem;
+   
     font-size: 25px;
     text-align: left;
 }
@@ -44,7 +44,7 @@
     width: 70%;
     
     
-    height:95%;
+    
     margin-top: 200px;  
     font-size: 20px;
     text-align: center;
@@ -53,7 +53,7 @@
 
 .debug-footer1-pink{
     width: 20%;
-    height:90%;
+    
     font-size: 20px;
     margin-top: 100px;
     color: #6f86d7;
@@ -79,12 +79,13 @@
 }
 .debug-footer1-green{
     width: 12.5%;
-    height:90%;
+    
     display: flex;
     
     flex-direction: column;
     justify-content:flex-start;
     padding-left: 50px;
+    
     color: white;
     justify-content: space-evenly;
     
@@ -102,7 +103,7 @@
     background-color: #8ea1e1;
     color: white;
     border-radius: 30px;
-    height: 40px;
+    
     width: 12%;
     text-align: center;
     padding: 10px;
@@ -149,15 +150,10 @@ header{
     
 }
 
-.section1{
+.jumbotron{
    height: 500px;
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
    background-size: cover;
    width: 100%;
-   
-    
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -197,6 +193,7 @@ header{
     height: 50px;
     border-radius: 50px;
     padding: 15px;
+    color: white;
    
     
     
@@ -218,7 +215,7 @@ header{
 .button-mac-2{
     text-align: center;
     color: white;
-    width: 20%;
+    width: 15%;
     background-color: #8ea1e1;
     height: 50px;
     border-radius: 50px;
@@ -226,10 +223,11 @@ header{
     margin: auto;
     margin-top: 50px;
     vertical-align: middle;
+   
 
 }
-.section2 {
-    height: 350px;
+.inviting-area {
+   
     display: flex;
    justify-content: space-around;
    align-items: center;  
@@ -241,14 +239,14 @@ header{
    align-items: center; 
 }
 
-.section3{
-    height: 650px;
+.vocalch{
+    
     display: flex;
     flex-direction: row-reverse;
    justify-content: center;
    align-items: center; 
    background-color: #f6f6f6;
-   margin-top: 400px;
+  
    
    
 }
@@ -271,13 +269,14 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    
     background-color: #23272a;
     padding-bottom: 10px;
 }
 
 .footer2{
-    height: 65px;
+   padding-top: 30px;
+   padding-bottom: 30px;
     background-color: #23272a;
     display: flex;
     justify-content:center;
@@ -303,7 +302,7 @@ header{
 
 .container-footer2{
     width: 70%;
-    height: 75%;
+    
     
     display: flex;
     justify-content: space-between;
